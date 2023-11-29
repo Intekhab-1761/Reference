@@ -1,0 +1,16 @@
+To add plugnis
+rabbitmq-plugins.bat enable rabbitmq_management
+rabbitmq-plugins enable rabbitmq_shovel rabbitmq_shovel_management
+ 
+Use this instead of the above ones
+
+rabbitmq-plugins.bat enable rabbitmq_management
+ 
+To start
+.\rabbitmq-service start
+ 
+To stop
+.\rabbitmq-service stop
+ 
+If start command doesn't work use this
+.\rabbitmq-server.bat
